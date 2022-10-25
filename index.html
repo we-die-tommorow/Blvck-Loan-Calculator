@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <!-- Font Awesome Icons  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+crossorigin="anonymous" />
+
+<!-- Google Fonts  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="icon" href="/images/b8e8b270213542a181fd554abeada6c8__1_-removebg-preview.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<title>BFD Loan Calculator</title>
+    </head>
+
+    <body>
+
+       
+
+            <h1>BLVCK LOAN CALCULATOR</h1>
+
+
+            <div class="container">
+                <h2>EVALUATE</h2>
+                <div class="form-input">
+                    <button class="input-icon"><i class="fas fa-dollar-sign"></i></button>
+                    <input type="number" class="input" id="amount" placeholder="Amount">
+                </div>
+                <div class="form-input">
+                    <button class="input-icon"><i class="fas fa-percentage"></i></button>
+                    <input type="number" class="input" id="interest" placeholder="Interest">
+                </div>
+                <div class="form-input">
+                    <button class="input-icon"><i class="fas fa-calendar"></i></button>
+                    <input type="number" class="input" id="months" placeholder="Repayment period">
+                </div>
+        
+                <button class="evaluateBtn" onclick="evaluateLoan()">Evaluate</button> 
+                <button class="clearBtn" onclick = "clearValue()">Clear</button>
+
+                
+                
+        
+                <div id="result"></div>
+                
+            </div>
+
+           
+
+
+
+             
+
+            
+                
+        
+        
+        
+
+         
+
+    
+   
+        
+        <script src="index.js"></script>
+    </body>
+</html>
